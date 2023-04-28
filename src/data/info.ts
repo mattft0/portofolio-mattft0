@@ -63,7 +63,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "https://uploads-ssl.webflow.com/633b1df6256bd626b9cb635a/633b24840801139f2d78ffe4_dribble-p-500.png",
       githubUrl: "https://github.com/mattft0/redisign-renault-rs",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/redesign_renault.html",
+      liveUrl: "https://mattft0.github.io/redisign-renault-rs/redesign_renault.html",
     },
 
     {
@@ -71,7 +71,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "https://uploads-ssl.webflow.com/633b1df6256bd626b9cb635a/633b3560c9b4935e0e7adf21_dribble2.png",
       githubUrl: "https://github.com/mattft0/crosize/",
-      liveUrl: "https://github.com/mattft0/crosize/main.html",
+      liveUrl: "https://mattft0.github.io/crosize/main.html",
     },
   ],
 };
