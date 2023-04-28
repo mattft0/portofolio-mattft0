@@ -1,97 +1,77 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  baseUrl: "https://mattft0.github.io/portofolio/",
+  name: "Matteo Floirat",
+  jobDescription: "2nd year student of a digital engineering bachelor's degree",
+  about: `I am a student in my 2nd year at ESILV (Ecole Supérieure d'Ingénieurs Léonard de Vinci) (92400, Courbevoie). Passionate about new technologies, I am interested in computer science, multimedia and digital technologies.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "MadeForMed (Internship)",
+      location: "Paris, Île-de-France, France",
+      startDate: "Jun 2023",
+      endDate: "Aug 2023",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "Internship as a backup and disaster recovery plan administrator at MadeForMed, responsible for the technical architecture technical architecture, implementation of applications in the cloud. Experience in IT solutions."
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "RDYNAMIK (Internship)",
+      location: "Noisy-le-Sec, Île-de-France, France",
+      startDate: "Jun 2022",
+      endDate: "Aug 2022",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "End of the year internship in a company specialized in the sale of goods, relay points, and events. Customer relations, project follow-up, after-sales service, preparation of estimates, financial follow-up",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
+      name: "ESILV (École supérieure d'ingénieurs Léonard-de-Vinci)",
+      location: "Courbevoie, Île-de-France, France",
+      startDate: "2021",
+      endDate: "2024",
+      description: ["Bachelor Ingénierie Numérique,  Spécialité Cybersécurité"],
+    },
+    {
+      name: "RTU (Riga Technical University)",
+      location: "Riga, Latvia",
+      startDate: "2022",
       endDate: "2022",
-      description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
-      ],
+      description: ["Erasmus Exchange Program"],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
+      name: "Lycée Gabriel Fauré",
+      location: "Paris, Île-de-France, France",
       startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      endDate: "2021",
+      description: ["Baccalauréat, Spécialité Mathématiques et NSI (Numérique et Sciences Informatiques)"],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/mattft0",
+    email: "matteo.floirat@edu.devinci.fr",
+    linkedin: "https://www.linkedin.com/in/floiratmatteo/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Redesign Renault RS",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "https://uploads-ssl.webflow.com/633b1df6256bd626b9cb635a/633b24840801139f2d78ffe4_dribble-p-500.png",
+      githubUrl: "https://github.com/mattft0/redisign-renault-rs",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/redesign_renault.html",
+    },
+
+    {
+      title: "Crosize",
+      isFeatured: true,
+      thumbnail: "https://uploads-ssl.webflow.com/633b1df6256bd626b9cb635a/633b3560c9b4935e0e7adf21_dribble2.png",
+      githubUrl: "https://github.com/mattft0/crosize/",
+      liveUrl: "https://github.com/mattft0/crosize/main.html",
     },
   ],
 };
