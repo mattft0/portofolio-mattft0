@@ -1,11 +1,20 @@
 export const info = {
   baseUrl: "https://mattft0.github.io/portofolio/",
   name: "Matteo Floirat",
-  jobDescription: "2nd year student of a digital engineering bachelor's degree",
-  about: `I am a student in my 2nd year at ESILV (Ecole Supérieure d'Ingénieurs Léonard de Vinci) (92400, Courbevoie). Passionate about new technologies, I am interested in computer science, multimedia and digital technologies.
-  `,
+  jobDescription: "3rd year student of a digital engineering bachelor's degree specialty cybersecurity",
+  about: `I am a student in my 3rf year at ESILV (Ecole Supérieure d'Ingénieurs Léonard de Vinci) (92400, Courbevoie). Passionate about new technologies, I am interested in computer science and cybersecurity.`,
 
   experience: [
+    {
+      name: "Imerys (Apprenticeship)",
+      location: "Paris, Île-de-France, France",
+      startDate: "Sep 2023",
+      endDate: "Aug 2024",
+      description: [
+        "IT support apprentices, incident responses, user management with active directory, ticketing tool."
+      ],
+    },
+
     {
       name: "MadeForMed (Internship)",
       location: "Paris, Île-de-France, France",
@@ -15,19 +24,16 @@ export const info = {
         "Internship as a backup and disaster recovery plan administrator at MadeForMed, responsible for the technical architecture technical architecture, implementation of applications in the cloud. Experience in IT solutions."
       ],
     },
-
-    {
-      name: "RDYNAMIK (Internship)",
-      location: "Noisy-le-Sec, Île-de-France, France",
-      startDate: "Jun 2022",
-      endDate: "Aug 2022",
-      description: [
-        "End of the year internship in a company specialized in the sale of goods, relay points, and events. Customer relations, project follow-up, after-sales service, preparation of estimates, financial follow-up",
-      ],
-    },
   ],
 
   education: [
+    {
+      name: "Oteria",
+      location: "Gennevilliers, Île-de-France, France",
+      startDate: "2024",
+      endDate: "2026",
+      description: ["Master's degree in Cybersecurity and Digital Trust"],
+    },
     {
       name: "ESILV (École supérieure d'ingénieurs Léonard-de-Vinci)",
       location: "Courbevoie, Île-de-France, France",
@@ -42,18 +48,11 @@ export const info = {
       endDate: "2022",
       description: ["Erasmus Exchange Program"],
     },
-    {
-      name: "Lycée Gabriel Fauré",
-      location: "Paris, Île-de-France, France",
-      startDate: "2018",
-      endDate: "2021",
-      description: ["Baccalauréat, Spécialité Mathématiques et NSI (Numérique et Sciences Informatiques)"],
-    },
   ],
 
   socialMedia: {
     github: "https://github.com/mattft0",
-    email: "matteo.floirat@edu.devinci.fr",
+    email: ["matteo.floirat@edu.devinci.fr","matteo.floirat@oteria.fr"],
     linkedin: "https://www.linkedin.com/in/floiratmatteo/",
   },
 
